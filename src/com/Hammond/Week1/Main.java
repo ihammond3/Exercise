@@ -7,6 +7,8 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String city="Galloway";
         int zipCode=43119;
+        System.out.println(city);
+        System.out.println(zipCode);
         double dailyHighs[]= {0, 0, 0, 0, 0};
         for(int i =0; i<=4; i++) {
             int day = i + 1;
